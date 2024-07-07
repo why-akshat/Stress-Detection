@@ -1,32 +1,32 @@
 Audio Based Stress Detection using DAIC-WOZ Dataset
 
-1.	Overview
+1.	**Overview**
 This machine learning model aims to detect stress levels based on input data. It utilizes various neural network architectures such as Deep Neural Networks (DNN), Convolutional Neural Networks (CNN), and Long Short-Term Memory networks (LSTM) for stress detection.
 
-2.	Model Architecture
+3.	**Model Architecture**
 The model consists of three different architectures:
-a.	Deep Neural Network (DNN)
-i.	Layers:
+**a.	Deep Neural Network (DNN)**
+i.	**Layers:**
 1.	Input Layer (193 features)
 2.	Dense Layer (64 units, ReLU activation)
 3.	Dense Layer (32 units, ReLU activation)
 4.	Output Layer (1 unit, Sigmoid activation)
-b.	Convolutional Neural Network (CNN)
-i.	Layers:
+**b.	Convolutional Neural Network (CNN)
+i.	Layers:**
 1.	Conv1D Layer (128 filters, kernel size 8, ReLU activation)
 2.	MaxPooling1D Layer (pool size 2)
 3.	Conv1D Layer (64 filters, kernel size 8, ReLU activation)
 4.	MaxPooling1D Layer (pool size 2)
 5.	Flatten Layer
 6.	Output Layer (1 unit, Sigmoid activation)
-c.	Long Short-Term Memory network (LSTM)
-i.	Layers:
+**c.	Long Short-Term Memory network (LSTM)
+i.	Layers:**
 1.	LSTM Layer (128 units)
 2.	Dense Layer (64 units, ReLU activation)
 3.	Dense Layer (32 units, ReLU activation)
 4.	Output Layer (1 unit, Sigmoid activation)
 
-3.	Usage Instructions:
+**3.	Usage Instructions:**
 a.	Prerequisites:
 i.	Python (3.x recommended)
 ii.	Required libraries: TensorFlow, pandas, numpy, matplotlib, sklearn
